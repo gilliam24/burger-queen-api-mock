@@ -26,3 +26,15 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
 }
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MzQwNzczMiwiZXhwIjoxNjUzNDExMzMyLCJzdWIiOiIyIn0.kqH9YfTp3oboZ4bfbWy3lvmuouM9-qDQvCeFtYZ7dsk"
+
+ {
+    "email": "meseroprueba.hopper@systers.xyz",
+    "password": "123456",
+    "rol": {"mesero":true,
+            "admin":false,
+            "cocina":false}
+}
