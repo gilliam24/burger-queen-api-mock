@@ -38,3 +38,15 @@ authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBl
             "admin":false,
             "cocina":false}
 }
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MzU4MDk0OCwiZXhwIjoxNjUzNTg0NTQ4LCJzdWIiOiIyIn0.07nePb0S1F2cJbD2XqwgCTkZ9Yid2vk7wfKh0hmTTkg"
+
+ {
+    "email": "cocineroprueba.hopper@systers.xyz",
+    "password": "123456",
+    "roles": {"mesero":false,
+            "admin":false,
+            "cocina":true}
+}

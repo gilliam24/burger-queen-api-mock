@@ -120,6 +120,16 @@
         "cocina": false
       },
       "id": 3
+    },
+    {
+      "email": "cocineroprueba.hopper@systers.xyz",
+      "password": "$2a$10$ZoVmy6wdOktZy/Esqewqaug4SoWdocddwjT/7YN6Lzxd15oi5ib4i",
+      "roles": {
+        "mesero": false,
+        "admin": false,
+        "cocina": true
+      },
+      "id": 4
     }
   ]
 }
