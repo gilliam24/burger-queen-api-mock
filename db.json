@@ -114,7 +114,7 @@
     {
       "email": "meseroprueba.hopper@systers.xyz",
       "password": "$2a$10$CExNpYxEKSDXY.WgcTOAW.dCeoFAqv47u1fQ8RAJp3qVll/g9IyvS",
-      "rol": {
+      "roles": {
         "mesero": true,
         "admin": false,
         "cocina": false
