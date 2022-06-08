@@ -50,3 +50,120 @@ authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBl
             "admin":false,
             "cocina":true}
 }
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwNzc3MywiZXhwIjoxNjU0NzExMzczLCJzdWIiOiIyIn0.xNM9HyigRzQE943SpWnMY-LN8Gj7MsEumnqGCw27MgI
+
+{
+      "id": 4,
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwNzk2MiwiZXhwIjoxNjU0NzExNTYyLCJzdWIiOiIyIn0.ZPJ_kFpfkj76zsv6ixC0gXYkbIFSZOMa3-sduUVFQ8w
+
+{
+      "id": 5,
+      "name": "Jugo de frutas natural",
+      "price": 700,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODA4MCwiZXhwIjoxNjU0NzExNjgwLCJzdWIiOiIyIn0.ZsvfPRUK8tmlqzCJY_3I7LSVqTpJqj8yqGBE1TYNgLY
+
+{
+      "id": 6,
+      "name": "Hamburguesa simple",
+      "price": 1000,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODEzMiwiZXhwIjoxNjU0NzExNzMyLCJzdWIiOiIyIn0.ZkVEiWZ6RUewtT6eg0221tRszPPNGLqOihKI8phBKw4
+
+{
+      "id": 7,
+      "name": "Hamburguesa doble",
+      "price": 1500,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODE3NywiZXhwIjoxNjU0NzExNzc3LCJzdWIiOiIyIn0.pE7KuruAn7JUlyFnx_dPfAeV79Go2aLwfUt7KzVXno4
+
+{
+      "id": 8,
+      "name": "Papas fritas",
+      "price": 500,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODIzNSwiZXhwIjoxNjU0NzExODM1LCJzdWIiOiIyIn0.cuebFo1bHWoCuruU-aWEK6A-PSgTTET_Squ68ablHVE
+
+{
+      "id": 9,
+      "name": "Aros de cebolla",
+      "price": 500,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODI4NiwiZXhwIjoxNjU0NzExODg2LCJzdWIiOiIyIn0.2vdjAKAgUMnvWdrJV-BYHvk9YQ7yT0RHFFjllYwmZLE
+
+{
+      "id": 10,
+      "name": "Agua 750ml",
+      "price": 700,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODM0MiwiZXhwIjoxNjU0NzExOTQyLCJzdWIiOiIyIn0.jwEGQqW03U8zxNtYTBdHgYVNTDo_9RnDC8KjuPJqGcc
+
+{
+      "id": 11,
+      "name": "Gaseosa 500ml",
+      "price": 700,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1NDcwODQwMCwiZXhwIjoxNjU0NzEyMDAwLCJzdWIiOiIyIn0.AtwDckYfy9sQHVjFREm5disN5Uh_LI0eAPFULLfWbWc
+
+{
+      "id": 12,
+      "name": "Gaseosa 750ml",
+      "price": 1000,
+      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+      "type": "Almuerzo",
+      "dateEntry": "2022-03-05 15:14:10"
+}
